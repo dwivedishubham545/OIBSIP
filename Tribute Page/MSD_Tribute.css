@@ -1,0 +1,90 @@
+root{
+    --primary-color: #3F51B5;
+    --text-icon-color:#FFFFFF;
+
+    --divider-color: #BDBDBD;
+}
+.container{
+    box-sizing: border-box;
+}
+#box{
+    border-radius: 15px;
+    margin: 15px;
+    padding: 3px;
+    background-color: rgb(12, 34, 116);
+    box-shadow: 1px 1px 2px rgb(48, 6, 148), 0 0 25px rgb(74, 141, 196), 0 0 5px rgb(240, 240, 241);
+}
+ h1{
+    font-family: 'Akronim';font-size: 22px;
+    font-size: 70px;
+    color: rgb(105, 6, 47); 
+ }
+ h1:hover{
+    color: rgb(17, 166, 185);
+    border: #cce949;
+    text-shadow: 1px 1px 2px rgb(8, 74, 150), 0 0 25px rgb(22, 187, 187), 0 0 5px rgb(152, 227, 236);
+ }
+.msd{
+    width: 70%;
+    align-items: center;
+    background-color: rgb(245, 252, 150);
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px solid brown;
+    box-shadow: 1px 1px 2px rgb(129, 40, 40), 0 0 25px rgb(202, 70, 110), 0 0 5px rgb(211, 162, 162);
+}
+.msd:hover{
+    border:5px solid rgb(238, 21, 21);
+    box-shadow: 1px 1px 2px rgb(197, 250, 4), 0 0 25px rgb(203, 243, 60), 0 0 5px rgb(212, 236, 143);
+
+}
+body{
+    text-align: center;
+    list-style: none;
+    font-family: 'acme';
+    font-size: 20px;
+    background-color: rgb(209, 247, 139);
+    color: rgb(212, 85, 85);
+}
+
+a{
+    color: red;
+    font-family: 'acme';
+    font-style: italic;
+    font-weight: bolder;
+}
+
+button{
+    width: 70%;
+    margin: 30px;
+    border-radius: 10px;
+    border-color: #3F51B5;
+    padding: 5px;
+    box-shadow: 1px 1px 2px rgb(26, 4, 126), 0 0 25px rgb(41, 41, 177), 0 0 5px rgb(92, 92, 165);
+}
+button:hover{
+    background-color: #f4f807ab;
+    border-color: rgb(218, 197, 9);
+    box-shadow: 1px 1px 2px rgb(6, 109, 14), 0 0 25px rgb(32, 187, 92), 0 0 5px rgb(24, 236, 4);
+}
+
+.image_dhoni{
+    height: 400px;
+    width: auto;
+}
+table, th, td {
+    border: 1px solid rgb(160, 24, 69);
+    margin: 5px;
+    text-align: center;
+    color: #1b1d11;
+    margin-left: 20%;
+    width: 60%;
+    margin-bottom: 40px;
+  }
+  h2{
+    color: #ca9115;
+  }
+  td{
+    color: #3F51B5;
+  }
